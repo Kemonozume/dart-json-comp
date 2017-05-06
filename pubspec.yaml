@@ -1,0 +1,19 @@
+name: dart_json_comp
+description: A simple console application.
+version: 0.0.1
+#homepage: https://www.example.com
+#author: Kemo <email@example.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+  json_god: ^2.0.0-beta
+  dartson: 0.2.6
+  json_conv: 
+    git:
+      url: git://github.com/Kemonozume/json_conv.git
+      ref: 653b2d2fdb795de933e317cd416b40d1b31902ac
+
+#dev_dependencies:
+#  test: ^0.12.0
